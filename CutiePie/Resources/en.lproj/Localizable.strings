@@ -1,0 +1,131 @@
+/* 
+  Localizable.strings
+  Onboarding
+
+  Created by Appinventiv on 13/09/17.
+  Copyright © 2017 Gurdeep Singh. All rights reserved.
+*/
+
+//MARK :- App Messages
+//MARK :-=============//
+
+"Enter_Email" = "Please enter Email-Id";
+"Invalid_Email" = "Please enter a valid Email";
+"Invalid_First_Name" = "First Name must be character only";
+"Invalid_Middle_Name" = "Middle Name must be character only";
+"Invalid_Last_Name" = "Last Name must be character only";
+"First_Name_Invalid_Length" = "First name must be atleast 3 character long";
+"Invalid_Username" = "Please enter a valid Username";
+"Enter_First_Name" = "Please enter First name";
+"Enter_Middle_Name" = "Please enter Middle name";
+"Enter_Last_Name" = "Please enter Last name";
+"Last_Name_Invalid_Length" = "Last name must be atleast 3 character long";
+
+"User_Name_Invalid_Length" = "User name must be atleast 6 character long";
+
+"Invalid_Phone" = "Please enter 8-10 digits for mobile no.";
+"Invalid_Password" = "Enter 6 character for password section";
+"Minimum_Age_limit" = "Minimum age is 18";
+"Maximum_Age_limit" = "Maximum age is 130";
+"Enter_Mobile" = "Please enter Mobile Number";
+"Enter_Password" = "Please enter password";
+"Enter_Confirm_Password" = "Please enter Confirm password";
+"Confirm_Password_Wrong" = "Confirm password did not match";
+"Invalid_City_Name" = "Please enter valid city name";
+"City_Name_Invalid_Length" = "City name must be atleast 3 character long";
+"Enter_City_name" = "Please enter City name";
+
+"Invalid_Region_Name" = "Please enter valid region name";
+"Region_Name_Invalid_Length" = "Region name must be atleast 3 character long";
+"Enter_Region_name" = "Please enter Region name";
+
+"Invalid_Country_Code" = "Please enter valid Country code";
+"Enter_Country_code" = "Please enter Country code";
+
+"Biography_Invalid_Length" = "Biography must be atleast 3 character long";
+"Enter_Biography" = "Please enter biography";
+"Something_Went_Wrong" = "Something Went Wrong";
+
+//MARK:- SignupVC
+//===============
+"Male" = "Male";
+"Female" = "Female";
+"Other" = "Other";
+
+"First_Name" = "First Name";
+"Middle_Name" = "Middle Name";
+"Last_Name" = "Last Name";
+"User_Name" = "User Name";
+"Gender" = "Gender";
+"Date_Of_Birth" = "Date Of Birth";
+"Phone_No" = "Phone No";
+"Password" = "Password";
+"City" = "City";
+"Country_Code" = "Country Code";
+"Region" = "Region";
+"Longitude" = "Longitude";
+"Latitude" = "Latitude";
+"Postal_Code" = "Postal Code";
+"Confirm_Password" = "Confirm Password";
+"Done" = "Done";
+
+//MARK:- LoginVC
+//==============
+"Ok" = "Ok";
+"LOGIN" = "LOGIN";
+"Back" = "Back";
+"Email_Address" = "Email Address";
+"Password" = "Password";
+"FORGOT_PASSWORD" = "FORGOT PASSWORD";
+"Logout" = "Logout";
+
+//MARK:- ForgotPasswordVC
+//=======================
+"Send_OTP_to_email_address" = "Send OTP to email address";
+"CONTINUE" = "CONTINUE";
+
+
+//MARK:- UserDetailViewController
+//===============================
+"Change_Password" = "Change Password";
+
+
+//MARK:- HomeViewController
+//=========================
+"SIGNUP" = "SIGNUP";
+
+//MARK:- ChangePasswordVC
+//=======================
+"Old_Password" = "Old Password";
+"New_Password" = "New Password";
+"CHANGE_PASSWORD" = "CHANGE PASSWORD";
+
+"Enter_Old_Password" = "Please Enter Old Password";
+"Invalid_Old_Password" = "Invalid Old Password";
+"Enter_New_Password" = "Please Enter New Password";
+"Invalid_New_Password" = "Invalid New Password";
+
+//MARK:- CountryCodeVC
+//=======================
+"Select_Country" = "Select Country";
+"Search_Country" = "Search Country";
+
+//MARK:- ChangePasswordVC
+//=======================
+"Enter_New_Password_For_Your_Account" = "Enter new password for your account";
+
+
+//MARK:- UIViewController Extension
+//=================================
+"Choose_Options" = "Choose Options";
+"Camera" = "Camera";
+"Camera_not_available" = "Camera not available";
+"Choose_from_gallery" = "Choose from gallery";
+"Take_Photo" = "Take Photo";
+"Cancel" = "Cancel";
+"Alert" = "Alert";
+"Settings" = "Settings";
+"You_have_been_restricted_from_using_the_camera_on_this_device_without_camera_access_this_feature_wont_work" = "You have been restricted from using the camera on this device without camera access this feature wont work";
+"Please_change_your_privacy_setting_from_the_Settings_app_and_allow_access_to_camera_for_your_app" = "Please change your privacy setting from the Settings app and allow access to camera for your app";
+"Youve_been_restricted_from_using_the_library_on_this_device_Without_camera_access_this_feature_wont_work" = "You have been restricted from using the photo library on this device Without camera access this feature wont work";
+"Please_change_your_privacy_setting_from_the_Settings_app_and_allow_access_to_library_for" = "Please change your privacy setting from the Settings app and allow access to library for your app";

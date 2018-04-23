@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TutorialCell" id="gTV-IL-0wX" customClass="TutorialCell" customModule="CutiePie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="270" height="260"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icWalkthrough" translatesAutoresizingMaskIntoConstraints="NO" id="cHJ-sz-teJ">
+                        <rect key="frame" x="0.0" y="0.0" width="270" height="260"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cHJ-sz-teJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="H7z-Mc-Weh"/>
+                <constraint firstAttribute="bottom" secondItem="cHJ-sz-teJ" secondAttribute="bottom" id="IbP-sL-4zc"/>
+                <constraint firstAttribute="trailing" secondItem="cHJ-sz-teJ" secondAttribute="trailing" id="VTk-k1-GCF"/>
+                <constraint firstItem="cHJ-sz-teJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eFG-j7-y6x"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="270" height="260"/>
+            <connections>
+                <outlet property="cellImageView" destination="cHJ-sz-teJ" id="3mo-z1-Sdk"/>
+            </connections>
+            <point key="canvasLocation" x="-48" y="-4"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icWalkthrough" width="295" height="313"/>
+    </resources>
+</document>
